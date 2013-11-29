@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft= "15dip"
+    android:paddingTop= "15dip"
+    android:paddingBottom= "15dip" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:layout_alignParentLeft="true"
+        android:text="Patient"
+        android:textColor="#53933f" />
+
+
+        <TextView
+        android:id="@+id/patient_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"
+        android:layout_weight="0.28"
+        android:textColor="#383838" />
+</LinearLayout>

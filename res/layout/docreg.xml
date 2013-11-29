@@ -1,0 +1,182 @@
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:text="REGISTRATION:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:hint="Enter your name"
+        android:layout_height="wrap_content"  
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+       android:textAppearance="?android:attr/textAppearanceLarge" 
+      />
+       
+
+       
+
+   
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="fill_parent"
+        android:hint="Enter your PhoneNumber"
+        android:layout_height="wrap_content"
+          
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+     
+       
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/address"
+        android:hint="Enter your address"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+       android:textAppearance="?android:attr/textAppearanceLarge" 
+       
+      />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="fill_parent"
+        android:hint="Enter your age"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+     android:textAppearance="?android:attr/textAppearanceLarge" 
+    
+        android:inputType="number" />
+    
+   <Spinner
+        android:id="@+id/spinner1"
+        android:prompt="@string/gender"
+     android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/gender_array"
+      
+        />
+
+    <EditText
+        android:id="@+id/contacts"
+      android:layout_width="fill_parent"
+        android:hint="Enter your Expertise/Skills"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+    
+        android:layout_height="wrap_content"
+       android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+  
+        android:ems="10"
+         />
+    
+     <EditText
+        android:id="@+id/contacts"
+      android:layout_width="fill_parent"
+        android:hint="Enter your Hospital/Clinic name"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+    
+        android:layout_height="wrap_content"
+       android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+  
+        android:ems="10"
+         />
+     
+     <EditText
+        android:id="@+id/contacts"
+      android:layout_width="fill_parent"
+        android:hint="Enter your Department Name(if applicable)"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+    
+        android:layout_height="wrap_content"
+       android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+  
+        android:ems="10"
+         />
+
+   
+
+    <EditText
+        android:id="@+id/username"
+ android:layout_width="fill_parent"
+        android:hint="Enter USERNAME"
+        android:layout_height="wrap_content"
+       android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+       android:textAppearance="?android:attr/textAppearanceLarge" 
+       
+         />
+    
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="Enter PASSWORD"
+        android:layout_width="fill_parent"
+      android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_height="wrap_content"
+       
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:hint="REenter PASSWORD"
+     android:layout_width="fill_parent"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        
+         android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+    
+   <Button
+        android:id="@+id/button1"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+  
+        android:text="REGISTER" />
+
+    <Button
+        android:id="@+id/button2"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+       
+        android:text="RESET" />
+   
+</LinearLayout>
+</ScrollView>

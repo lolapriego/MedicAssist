@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medicassist"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12" android:maxSdkVersion="19" android:targetSdkVersion="19"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+        <uses-permission android:name="android.permission.INTERNET" />
+   
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.medicassist.MainActivity"
+             android:windowSoftInputMode="stateHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.password" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.Appointments" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.MainScreen" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.Schedule" >
+        </activity>
+         <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.test" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.CustomListAdapter" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.Item" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.newdoc" >
+        </activity>
+         <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.NewDocDataBaseAdapter" >
+        </activity>
+         <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.addappointment" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.NewAppDataBaseAdapter" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.ShowPopUp" >
+        </activity>
+          <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.Detailed" >
+        </activity>
+           <activity
+            android:name="com.example.medicassist.DoctorsMainActivity"
+            android:label="@string/title_activity_doctors_main" >
+        </activity>
+        <activity
+            android:name="com.example.medicassist.DoctorsConnectedActivity"
+            android:label="@string/title_activity_doctors_connected" >
+        </activity>
+        <activity
+            android:name="com.example.medicassist.SearchDoctorsActivity"
+            android:label="@string/title_activity_search_doctors" >
+        </activity>
+        <activity
+            android:name="com.example.medicassist.TestMainActivity"
+            android:label="@string/title_activity_test_main" >
+        </activity>
+        <activity
+            android:name="com.example.medicassist.ManageMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.medicassist.updateAccountSettings" >
+        </activity>
+        <activity
+            android:name="com.example.medicassist.BluetoothScan"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.medicassist.BluetoothDevices"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.medicassist.BluetoothDevicesService"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.example.medicassist.BluetoothPair"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name="com.example.medicassist.DeviceListActivity"
+                  android:label="@string/select_device"
+                  android:theme="@android:style/Theme.Dialog"
+                  android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="com.example.medicassist.MainActivityBluetooth"
+                  android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.medicassist.ViewRecordActivity"
+            android:label="@string/records" >
+                </activity>
+        
+    </application>
+    
+
+</manifest>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">MedicAssist</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="gender">Select your gender</string>
+    <string-array name="gender_array">
+        <item>SELECT YOUR GENDER</item>
+           <item>MALE</item>
+        <item>FEMALE</item>
+        <item>OTHERS</item>
+        </string-array>  
+    
+   
+    <string name="doc">Doctors</string>
+    <string name="dev">Devices</string>
+    <string name="req">Requests</string>
+    <string name="acs">Account Settings</string>
+    <string name="title_activity_doctors_main">Doctors</string>
+    <string name="title_activity_doctors_connected">DoctorsConnectedActivity</string>
+    <string name="title_activity_search_doctors">SearchDoctorsActivity</string>
+    <string name="search">Search</string>
+    <string name="docSearchHint">Doctors Name</string>
+    <string name="title_activity_test_main">TestMainActivity</string>
+    <string name="add">Add New</string>
+    <string name="docname">Doctor Name</string>
+    <string name="docstatus">Doctor Status</string>
+    <string name="docspec">Doctor Specialization</string>
+    <string name="doccomm">Doctor Comments</string>   
+
+    <!--  BluetoothDevice Sumesh-->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Medical Device Log.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity Sumesh-->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu Sumesh-->
+    <string name="secure_connect">Connect to a paired device</string>
+    
+    <!-- Lola Resources -->
+    <string name="title_activity_view_record">ViewRecordActivity</string>
+    <string name="updating">Connecting</string>
+    <string name="error_connection">Connection Error</string>
+    <string name="text_error_connection">It looks like we cannot access to the Internet connection. Try again later</string>
+    <string name="try_again">Try now</string>
+    <string name="records">Records</string>
+
+    </resources>
+    
+
