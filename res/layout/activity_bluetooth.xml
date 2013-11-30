@@ -3,13 +3,22 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
+    
+
 
 	<Button
 	    android:id="@+id/buttonEnable"
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:text="Make Discoverable" 
-	    android:onClick="Enable_discoverability" />
+	    android:text="Make Discoverable"
+	    android:onClick="Enable_discoverability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/green_button"
+	    android:textColor="@android:color/white"
+        android:textSize="16dip"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="fill_parent"
@@ -19,6 +28,13 @@
         android:id="@+id/Scan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/green_button"
+	    android:textColor="@android:color/white"
+        android:textSize="16dip"
+        android:textStyle="bold"
         android:text="Scan and Pair" 
         android:onClick="Pair" />
 
@@ -30,6 +46,13 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/green_button"
+	    android:textColor="@android:color/white"
+        android:textSize="16dip"
+        android:textStyle="bold"
         android:text="Connect" 
         android:onClick="Connect" />
 

@@ -21,9 +21,15 @@
         android:id="@+id/docSearch"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_alignBottom="@+id/docSearchInput"
+        android:layout_alignTop="@+id/docSearchInput"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
         android:layout_toRightOf="@+id/docSearchInput"
-        android:text="@string/search" />
+        android:background="@drawable/green_button"
+        android:text="@string/search"
+        android:textColor="@android:color/white"
+        android:textSize="10dip" />
 
 </RelativeLayout>

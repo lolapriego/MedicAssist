@@ -140,6 +140,13 @@
         android:id="@+id/button1"
     android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/green_button"
+	    android:textColor="@android:color/white"
+        android:textSize="16dip"
+        android:textStyle="bold"
         android:layout_gravity="right|center_vertical"
   
         android:text="REGISTER" />
@@ -148,6 +155,13 @@
         android:id="@+id/button2"
          android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/green_button"
+	    android:textColor="@android:color/white"
+        android:textSize="16dip"
+        android:textStyle="bold"
         android:layout_gravity="right|center_vertical"
        
         android:text="RESET" />

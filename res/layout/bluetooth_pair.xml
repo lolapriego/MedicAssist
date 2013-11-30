@@ -36,7 +36,14 @@
    <Button
        android:id="@+id/buttonSearch"
        android:layout_width="match_parent"
-       android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/green_button"
+	    android:textColor="@android:color/white"
+        android:textSize="16dip"
+        android:textStyle="bold"
        android:text="Search" />
 
    <TextView
